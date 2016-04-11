@@ -1,6 +1,6 @@
 {
   "name": "IRCCloud",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Electron app that embeded IRCCound",
   "main": "main.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "irccloud"
   ],
   "author": "Morris Tseng",
-  "devDependencies": {
-    "electron-prebuilt": "^0.37.0"
+  "dependencies": {
+    "electron-prebuilt": "^0.37.5"
   }
 }
