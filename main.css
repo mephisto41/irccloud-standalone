@@ -3,6 +3,26 @@
   height: 100%;
 }
 
+#search-footer {
+  width: 100%;
+  height: 32px;
+  position: absolute;
+  bottom: 0;
+  display: none;
+}
+
+#searchtext {
+  width: 200px;
+}
+
+#seachclose {
+  right: 0;
+}
+
+#search-result {
+  margin: 0 30px;
+}
+
 html, body {
   margin: 0;
   padding: 0;

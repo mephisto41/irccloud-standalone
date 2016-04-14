@@ -3,11 +3,28 @@
   <head>
     <meta charset="UTF-8">
     <title>IRCCloud standalone</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="photon/css/photon.css">
     <script src="app.js"></script>
   </head>
   <body>
     <script>console.log("")</script>
     <webview id="ircmain" src=https://irccloud.mozilla.com/ autosize="on"></webview>
+    <footer id="search-footer" class="toolbar toolbar-footer">
+      <div class="form-group">
+        <input id="searchtext" type="text" class="form-control" placeholder="Find in page" />
+        <button id="searchup" class="btn btn-default">
+          <span class="icon icon-up"></span>
+        </button>
+        <button id="searchdown" class="btn btn-default">
+          <span class="icon icon-down"></span>
+        </button>
+        <span id="search-result"></span>
+        <input id="search-match-case" type="checkbox" />Match Case
+        <button id="searchclose" class="btn btn-default">
+          <span class="icon icon-cancel"></span>
+        </button>
+      </div>
+    </footer>
   </body>
 </html>
